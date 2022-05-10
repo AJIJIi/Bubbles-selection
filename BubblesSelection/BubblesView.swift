@@ -22,7 +22,7 @@ public class BubblesView: SKView {
         presentScene(bubblesScene)
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

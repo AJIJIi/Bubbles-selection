@@ -18,7 +18,7 @@ public struct BubbleData {
     let selectedColor: UIColor
     let selectedRatio: CGFloat
     
-    init(radius: CGFloat = 40,
+    public init(radius: CGFloat = 40,
          attributedText: NSAttributedString? = nil,
          image: UIImage? = nil,
          fillColor: UIColor = .white,
