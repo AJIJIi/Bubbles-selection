@@ -1,9 +1,52 @@
-# Bubbles-selection
+# BubblesSelection SDK
 
-This is a BubblesSelection SDK. iOS 11+
+Available for iOS 11+.
 
-It allows you to add nice configurable selection interface to your iOS project. Inspired by Apple Music genre's selection element.
+## Installation
 
-You can add this framework to your project via CocoaPods or Swift Package Manager.
+### CocoaPods
 
-Example app with how to use description: https://github.com/AJIJIi/BubblesSelectionExampleApp
+
+Create `Podfile` (with `pod init` for example) and add `pod 'BubblesSelection'`:
+
+```
+use_frameworks!
+
+target 'AppName' do
+    pod 'BubblesSelection'
+end
+```
+
+Install pods:
+
+```
+$ pod install
+```
+
+Import the module:
+
+#### Swift
+
+```
+import BubblesSelection
+```
+
+#### Objective-C:
+
+```
+@import BubblesSelection;
+```
+
+## Detailed Example
+
+Here is [an app](https://github.com/AJIJIi/BubblesSelectionExampleApp) which demonstrates all features of the framework.
+
+## Ideas for improvement
+
+- A feature to choose where from bubbles appear
+
+## Contact me
+
+- bochkov.alexej@gmail.com 
+- [Telegram](https://t.me/bochkov_alexej)
+- [LinkedIn](https://www.linkedin.com/in/bochkov-alexej/)
