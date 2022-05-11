@@ -47,6 +47,8 @@ Here is [an app](https://github.com/AJIJIi/BubblesSelectionExampleApp) which dem
 
 ## Contact me
 
+If you have any feedback, ideas for improvement or even requests, please don't hesitate to contact me here:
+
 - bochkov.alexej@gmail.com 
 - [Telegram](https://t.me/bochkov_alexej)
 - [LinkedIn](https://www.linkedin.com/in/bochkov-alexej/)
