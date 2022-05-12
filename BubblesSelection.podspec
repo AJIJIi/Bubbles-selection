@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.author       = { "Aleksei Bochkov" => "bochkov.alexej@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/AJIJIi/Bubbles-selection.git", :tag => "#{spec.version}" }
-  spec.source_files = "BubblesSelection", "BubblesSelection/**/*.{swift}"
+  spec.source_files = "Sources", "Sources/**/*.{swift}"
 end

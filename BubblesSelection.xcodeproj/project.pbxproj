@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA42C1C72826667F006F58F1 /* BubblesSelection.docc in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1C62826667F006F58F1 /* BubblesSelection.docc */; };
-		CA42C1C82826667F006F58F1 /* BubblesSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = CA42C1C52826667F006F58F1 /* BubblesSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA42C1D328266755006F58F1 /* BubblesSceneAndNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1CE28266755006F58F1 /* BubblesSceneAndNode.swift */; };
 		CA42C1D428266755006F58F1 /* BubblesViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */; };
 		CA42C1D528266755006F58F1 /* BubbleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1D028266755006F58F1 /* BubbleData.swift */; };
@@ -18,8 +16,6 @@
 
 /* Begin PBXFileReference section */
 		CA42C1C22826667F006F58F1 /* BubblesSelection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubblesSelection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA42C1C52826667F006F58F1 /* BubblesSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubblesSelection.h; sourceTree = "<group>"; };
-		CA42C1C62826667F006F58F1 /* BubblesSelection.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BubblesSelection.docc; sourceTree = "<group>"; };
 		CA42C1CE28266755006F58F1 /* BubblesSceneAndNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesSceneAndNode.swift; sourceTree = "<group>"; };
 		CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesViewDelegate.swift; sourceTree = "<group>"; };
 		CA42C1D028266755006F58F1 /* BubbleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleData.swift; sourceTree = "<group>"; };
@@ -41,7 +37,7 @@
 		CA42C1B82826667F006F58F1 = {
 			isa = PBXGroup;
 			children = (
-				CA42C1C42826667F006F58F1 /* BubblesSelection */,
+				CA42C1C42826667F006F58F1 /* Sources */,
 				CA42C1C32826667F006F58F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +50,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA42C1C42826667F006F58F1 /* BubblesSelection */ = {
+		CA42C1C42826667F006F58F1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				CA66DD5A28266A3B003591C2 /* Utilities.swift */,
@@ -62,10 +58,8 @@
 				CA42C1CE28266755006F58F1 /* BubblesSceneAndNode.swift */,
 				CA42C1D128266755006F58F1 /* BubblesView.swift */,
 				CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */,
-				CA42C1C52826667F006F58F1 /* BubblesSelection.h */,
-				CA42C1C62826667F006F58F1 /* BubblesSelection.docc */,
 			);
-			path = BubblesSelection;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,7 +69,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA42C1C82826667F006F58F1 /* BubblesSelection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +145,6 @@
 				CA66DD5B28266A3B003591C2 /* Utilities.swift in Sources */,
 				CA42C1D528266755006F58F1 /* BubbleData.swift in Sources */,
 				CA42C1D328266755006F58F1 /* BubblesSceneAndNode.swift in Sources */,
-				CA42C1C72826667F006F58F1 /* BubblesSelection.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -269,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -303,9 +295,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajijii.BubblesSelection;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,9 +324,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajijii.BubblesSelection;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
