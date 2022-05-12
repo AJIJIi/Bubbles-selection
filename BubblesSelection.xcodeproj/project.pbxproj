@@ -11,6 +11,7 @@
 		CA42C1D428266755006F58F1 /* BubblesViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */; };
 		CA42C1D528266755006F58F1 /* BubbleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1D028266755006F58F1 /* BubbleData.swift */; };
 		CA42C1D628266755006F58F1 /* BubblesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42C1D128266755006F58F1 /* BubblesView.swift */; };
+		CA56202E282D937B003C2191 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA56202D282D937B003C2191 /* Package.swift */; };
 		CA66DD5B28266A3B003591C2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA66DD5A28266A3B003591C2 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesViewDelegate.swift; sourceTree = "<group>"; };
 		CA42C1D028266755006F58F1 /* BubbleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleData.swift; sourceTree = "<group>"; };
 		CA42C1D128266755006F58F1 /* BubblesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesView.swift; sourceTree = "<group>"; };
+		CA56202D282D937B003C2191 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		CA66DD5A28266A3B003591C2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +39,7 @@
 		CA42C1B82826667F006F58F1 = {
 			isa = PBXGroup;
 			children = (
+				CA56202D282D937B003C2191 /* Package.swift */,
 				CA42C1C42826667F006F58F1 /* Sources */,
 				CA42C1C32826667F006F58F1 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA56202E282D937B003C2191 /* Package.swift in Sources */,
 				CA42C1D428266755006F58F1 /* BubblesViewDelegate.swift in Sources */,
 				CA42C1D628266755006F58F1 /* BubblesView.swift in Sources */,
 				CA66DD5B28266A3B003591C2 /* Utilities.swift in Sources */,
