@@ -7,7 +7,7 @@
 
 import SpriteKit
 
-/* The main class which you use.
+/* The main class which you use
  */
 public class BubblesView: SKView {
     
