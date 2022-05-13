@@ -56,13 +56,21 @@
 		CA42C1C42826667F006F58F1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CA66DD5A28266A3B003591C2 /* Utilities.swift */,
-				CA42C1D028266755006F58F1 /* BubbleData.swift */,
-				CA42C1CE28266755006F58F1 /* BubblesSceneAndNode.swift */,
-				CA42C1D128266755006F58F1 /* BubblesView.swift */,
-				CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */,
+				CA573EFD282EBC4C007BD28C /* BubblesSelection */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		CA573EFD282EBC4C007BD28C /* BubblesSelection */ = {
+			isa = PBXGroup;
+			children = (
+				CA66DD5A28266A3B003591C2 /* Utilities.swift */,
+				CA42C1D028266755006F58F1 /* BubbleData.swift */,
+				CA42C1D128266755006F58F1 /* BubblesView.swift */,
+				CA42C1CE28266755006F58F1 /* BubblesSceneAndNode.swift */,
+				CA42C1CF28266755006F58F1 /* BubblesViewDelegate.swift */,
+			);
+			path = BubblesSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +309,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -330,7 +338,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
