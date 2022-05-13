@@ -1,0 +1,6 @@
+framework module BubblesSelection {
+  umbrella header "BubblesSelection-umbrella.h"
+
+  export *
+  module * { export * }
+}
