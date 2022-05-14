@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Animated chat
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 02/04/22.
 //

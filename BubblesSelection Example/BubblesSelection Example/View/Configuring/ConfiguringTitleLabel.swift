@@ -1,6 +1,6 @@
 //
 //  ConfiguringTitleLabel.swift
-//  Bubbles Selection Example App
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 10/05/22.
 //

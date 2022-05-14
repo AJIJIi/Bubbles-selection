@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Bubbles selection
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 02/04/22.
 //

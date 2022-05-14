@@ -1,13 +1,13 @@
 //
 //  BubblesVC.swift
-//  Bubbles selection
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 02/04/22.
 //
 
 import UIKit
 import SpriteKit
-import BubblesSelection
+//import BubblesSelection
 
 //MARK: - Final controller with implemented BubblesView
 final class BubblesVC: CustomVC {

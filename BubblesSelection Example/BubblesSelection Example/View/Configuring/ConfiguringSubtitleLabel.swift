@@ -1,6 +1,6 @@
 //
 //  ConfiguringSubtitleLabel.swift
-//  BubblesSelection example app
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 10/05/22.
 //

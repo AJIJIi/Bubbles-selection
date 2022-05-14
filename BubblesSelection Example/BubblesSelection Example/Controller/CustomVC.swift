@@ -1,6 +1,6 @@
 //
 //  CustomVC.swift
-//  Bubbles selection
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 03/04/22.
 //

@@ -1,6 +1,6 @@
 //
 //  OnboardingVC.swift
-//  Bubbles selection
+//  BubblesSelection Example
 //
 //  Created by Aleksei Bochkov on 08/04/22.
 //
