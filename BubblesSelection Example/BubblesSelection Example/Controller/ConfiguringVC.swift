@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import BubblesSelection
+import BubblesSelection
 import AVFoundation
 
 //VC to configure shown Scene
@@ -22,7 +22,7 @@ final class ConfiguringVC: CustomVC {
     
     //MARK: - Bubble configuration
     
-    private let bubbleTitleLabel = ConfiguringTitileLabel("Bubble configuration")
+    private let bubbleTitleLabel = ConfiguringTitleLabel("Bubble configuration")
     private let radiusLabel = ConfiguringParameterLabel("Radius: 50.0")
     private let radiusSlider = UISlider(min: 5, max: 100, initial: 50)
     
@@ -85,7 +85,7 @@ final class ConfiguringVC: CustomVC {
     
     //MARK: - Scene configuration
     
-    private let sceneTitleLabel = ConfiguringTitileLabel("Scene configuration")
+    private let sceneTitleLabel = ConfiguringTitleLabel("Scene configuration")
     private let magnetStrengthLabel = ConfiguringParameterLabel("Strength of the magnet: 15000.0")
     private let magnetStrengthSlider = UISlider(min: 500, max: 30000, initial: 15000)
     private let countLabel = ConfiguringParameterLabel("Number of bubbles: 20")
