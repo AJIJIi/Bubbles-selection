@@ -52,8 +52,10 @@ public class BubbleNode: SKSpriteNode {
         
         addChild(shapeNode)
         
-        labelNode.numberOfLines = 0
-        labelNode.preferredMaxLayoutWidth = radius * 2
+        if #available(iOS 11.0, *) {
+            labelNode.numberOfLines = 0
+            labelNode.preferredMaxLayoutWidth = radius * 2
+        }
         labelNode.verticalAlignmentMode = .center
         labelNode.horizontalAlignmentMode = .center
         
@@ -78,7 +80,9 @@ public class BubbleNode: SKSpriteNode {
             return
         }
         
-        labelNode.attributedText = attributedText
+        if #available(iOS 11.0, *) {
+            labelNode.attributedText = attributedText
+        }
         shapeNode.addChild(labelNode)
     }
     
