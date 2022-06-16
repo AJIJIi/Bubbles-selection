@@ -53,16 +53,8 @@ $ pod install
 
 Import the module:
 
-###### Swift
-
 ```
 import BubblesSelection
-```
-
-###### Objective-C:
-
-```
-@import BubblesSelection;
 ```
 
 #### Swift Package Manager
