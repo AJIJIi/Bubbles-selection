@@ -63,7 +63,7 @@ import BubblesSelection
 
 1. In your Xcode project, select File > Add Packages 
 2. Enter `https://github.com/AJIJIi/Bubbles-selection` as a Git URL
-3. Then chose exact version (should be 0.0.4)
+3. Then choose exact version (should be 0.0.4)
 4. Press `Add Package`
 
 ### Example App
