@@ -10,6 +10,13 @@ Additionally, I uploaded here an application that demonstrates the features prov
 
 ## Demo
 
+<video
+  src="https://github.com/user-attachments/assets/91eed56d-94fe-4a5f-8620-5523ea93a3e4"
+  controls
+  playsinline
+  width="720">
+</video>
+
 https://github.com/user-attachments/assets/91eed56d-94fe-4a5f-8620-5523ea93a3e4
 https://github.com/user-attachments/assets/9815d908-6e3e-4710-ba42-7c50522d210e
 https://github.com/user-attachments/assets/aa6b3795-7e38-4f68-b4de-b86f8f3c3409
